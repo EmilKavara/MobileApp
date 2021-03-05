@@ -30,13 +30,13 @@ SET time_zone = "+00:00";
 CREATE TABLE `patient` (
   `patient_id` int(11) NOT NULL,
   `ime` varchar(25) NOT NULL,
-  `prezime` varchar(25) DEFAULT NULL,
+  `prezime` varchar(25) NOT NULL,
   `kontakt_broj` int(11) DEFAULT NULL,
   `datum` varchar(23) DEFAULT NULL,
-  `adresa` varchar(50) DEFAULT NULL,
-  `doktor` varchar(11) DEFAULT NULL,
+  `adresa` varchar(50) NOT NULL,
+  `doktor` int(20) NOT NULL,
   `password` varchar(30) NOT NULL,
-  `email` varchar(30) DEFAULT NULL
+  `email` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -44,8 +44,7 @@ CREATE TABLE `patient` (
 --
 
 INSERT INTO `patient` (`patient_id`, `ime`, `prezime`, `kontakt_broj`, `datum`, `adresa`, `doktor`, `password`, `email`) VALUES
-(10, 'emil', NULL, 0, NULL, NULL, NULL, '2332', 'emilt@ads.com'),
-(14, '', NULL, NULL, 'datum', NULL, 'ee d', '', NULL);
+(10, 'Emil', 'Kavara', 061, NULL, 'Adresa', 1, 'password', 'emil@gmail.com');
 
 --
 -- Indexes for dumped tables
