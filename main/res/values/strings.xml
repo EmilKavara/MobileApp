@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Scorpion1</string>
+    <string name="remember_me">Remember me</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="ime_i_prezime">Ime i prezime</string>
+    <string name="log_out">Log out</string>
+    <string name="ve_ima_ra_un">Već imaš račun</string>
+    <string name="sign_up">Sign up</string>
+    <string name="broj_telefona">Broj telefona</string>
+    <string name="e_mail_adresa">E- mail adresa</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="policija">Policija</string>
+    <string name="hitna">Hitna</string>
+    <string name="vatrogasci">Vatrogasci</string>
+    <string name="komunalno_preduze_e">Komunalno preduzeće</string>
+    <string name="sos">SOS</string>
+    <string name="zakoni">Zakoni</string>
+    <string name="kreiranjem_korisni_kog_ra_una_sla_ete_se_sa_uvjetima_kori_tenja_aplikacije_i_njene_politike_privatnosti">Kreiranjem korisničkog računa slažete se sa uvjetima korištenja aplikacije i njene politike privatnosti</string>
+</resources>
