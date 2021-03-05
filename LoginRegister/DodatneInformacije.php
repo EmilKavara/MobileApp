@@ -8,3 +8,4 @@ if (isset($_POST['datum']) && isset($_POST['doktor'])) {
         } else echo "Failed";
     } else echo "Error: Database connection";
 } else echo "All fields are required";
+ 
